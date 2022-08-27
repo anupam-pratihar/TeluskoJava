@@ -58,6 +58,5 @@ public class ArithmeticOperators {
         int remainder_7_8 = number_7 % number_8;
         System.out.println(remainder_7_8);
         System.out.println();
-
     }
 }
