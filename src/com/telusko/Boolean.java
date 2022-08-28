@@ -10,7 +10,6 @@ public class Boolean {
         System.out.println(boolean_value1);
 
         // to invert a variable
-
         boolean_value1 = !boolean_value1;
         System.out.println(boolean_value1);
 
