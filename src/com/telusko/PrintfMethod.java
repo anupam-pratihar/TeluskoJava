@@ -1,7 +1,9 @@
 package com.telusko;
 
-public class PrintfMethod {
-    public static void main(String [] args){
+public class PrintfMethod
+{
+    public static void main(String [] args)
+    {
         // System is a class
         // out is an object
         // println is a method
