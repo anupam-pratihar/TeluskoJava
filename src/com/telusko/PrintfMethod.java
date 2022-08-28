@@ -20,6 +20,9 @@ public class PrintfMethod
 
         // printf means print format
         System.out.printf("The addition of %d and %d is %d",number_1,number_2,number_3 );
+        // * More Details
+        // https://www.baeldung.com/java-printstream-printf
+
 
     }
 }

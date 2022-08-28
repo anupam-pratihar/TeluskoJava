@@ -10,7 +10,7 @@ public class BinaryLiteral {
         int binary = 0B101;
         System.out.println(binary);
 
-        int binary_1 = 0b1000000000;
+        int binary_1 = 0b1000000000000000000000000000;
         System.out.println(binary_1);
 
     }
