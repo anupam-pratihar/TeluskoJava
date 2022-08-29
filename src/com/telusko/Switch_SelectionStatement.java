@@ -65,5 +65,18 @@ public class Switch_SelectionStatement
             case 5 -> System.out.println("Five");
             default -> System.out.println("Still under Developing");
         }
+
+        String name = "Ginura";
+        switch(name){
+            case "ginura":
+                System.out.println("Simple");
+                break;
+            case "Ginura":
+                System.out.println("Capitalized");
+                break;
+            case "GINURA":
+                System.out .println("Capital");
+                break;
+        }
     }
 }
