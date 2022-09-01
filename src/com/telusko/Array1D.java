@@ -6,12 +6,14 @@ class Students{
 }
 
 
-public class Array1D {
-    public static void main(String[] args){
+public class Array1D
+{
+    public static void main(String[] args)
+    {
         // Let's create an array with integers
         // java arrays are objects, so we have to use new keyword and need to specify the size of the array
 
-        int nums_array[] =new int [4];
+        int[] nums_array =new int [4];
         // as soon as you create that new object it will create an array of size 4 with 0 values
         System.out.println(nums_array[3]);
         System.out.println(nums_array[1]);
@@ -35,14 +37,16 @@ public class Array1D {
         System.out.println();
 
         // instead of above method we can print all the values like this too
-        for (int i = 0; i < 4; i ++){
+        for (int i = 0; i < 4; i ++)
+        {
             System.out.println(nums_array[i]);
         }
         System.out.println();
 
         // if we know the values before we create the array
-        int nums_array1[] = {4,6,56,246,346,4584,0};
-        for (int j = 0; j < 7; j ++){
+        int[] nums_array1 = {4,6,56,246,346,4584,0};
+        for (int j = 0; j < 7; j ++)
+        {
             System.out.println(nums_array1[j]);
         }
 
